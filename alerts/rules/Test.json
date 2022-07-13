@@ -1,0 +1,23 @@
+{
+  "rule_name": "Test",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "rule_description": "Test",
+  "source_type": "*",
+  "matchers": [
+    {
+      "is_enabled": true,
+      "description": "test",
+      "matcher_type": "REGEX_MATCH",
+      "is_negated": false,
+      "field": "name",
+      "data": "a"
+    }
+  ],
+  "tags": [
+    {
+      "tag_name": "tag",
+      "tag_value": "5"
+    }
+  ]
+}
