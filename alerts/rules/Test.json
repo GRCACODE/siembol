@@ -6,7 +6,7 @@
   "source_type": "*",
   "matchers": [
     {
-      "is_enabled": false,
+      "is_enabled": true,
       "description": "test",
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
