@@ -2,7 +2,7 @@
   "rule_name": "Test",
   "rule_author": "siembol",
   "rule_version": 3,
-  "rule_description": "Test",
+  "rule_description": "New Description",
   "source_type": "*",
   "matchers": [
     {
@@ -11,7 +11,7 @@
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "name",
-      "data": "a"
+      "data": "b"
     }
   ],
   "tags": [
