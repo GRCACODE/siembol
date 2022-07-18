@@ -16,7 +16,7 @@
     }
   ],
   "rule_protection": {
-    "max_per_hour": 30,
+    "max_per_hour": 0,
     "max_per_day": 100
   }
 }
