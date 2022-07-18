@@ -1,23 +1,20 @@
 {
   "rule_name": "Test",
   "rule_author": "siembol",
-  "rule_version": 3,
+  "rule_version": 4,
   "rule_description": "New Description",
   "source_type": "*",
   "matchers": [
     {
-      "is_enabled": false,
-      "description": "test",
-      "matcher_type": "REGEX_MATCH",
+      "is_enabled": true,
+      "description": "dot",
+      "matcher_type": "CONTAINS",
       "is_negated": false,
       "field": "name",
-      "data": "b"
-    }
-  ],
-  "tags": [
-    {
-      "tag_name": "tag",
-      "tag_value": "<b>bold</b>"
+      "case_insensitive": false,
+      "starts_with": false,
+      "ends_with": false,
+      "data": "."
     }
   ]
 }
