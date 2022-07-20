@@ -1,0 +1,20 @@
+{
+  "test_case_name": "test_1",
+  "test_specification": {
+    "event": {
+      "key": "value"
+    }
+  },
+  "assertions": [
+    {
+      "assertion_type": "only_if_path_exists",
+      "json_path": "$.outputEvents[0].key",
+      "expected_pattern": "value",
+      "negated_pattern": false,
+      "active": true
+    }
+  ],
+  "author": "siembol",
+  "version": 1,
+  "config_name": "MyNewConfig"
+}
