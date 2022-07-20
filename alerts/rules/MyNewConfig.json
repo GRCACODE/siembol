@@ -1,7 +1,7 @@
 {
   "rule_name": "MyNewConfig",
   "rule_author": "siembol",
-  "rule_version": 1,
+  "rule_version": 2,
   "rule_description": "Rule to match the demo alert",
   "source_type": "*",
   "matchers": [
@@ -10,11 +10,11 @@
       "description": "WhateverYouWant",
       "matcher_type": "CONTAINS",
       "is_negated": false,
-      "field": "errorMessage",
+      "field": "eventVersion",
       "case_insensitive": true,
       "starts_with": false,
       "ends_with": false,
-      "data": "Failed"
+      "data": "1.05"
     }
   ]
 }
