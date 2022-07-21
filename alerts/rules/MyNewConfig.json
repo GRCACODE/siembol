@@ -1,9 +1,9 @@
 {
   "rule_name": "MyNewConfig",
   "rule_author": "siembol",
-  "rule_version": 8,
+  "rule_version": 9,
   "rule_description": "Rule to match the demo alert",
-  "source_type": "*",
+  "source_type": "banana",
   "matchers": [
     {
       "is_enabled": true,
@@ -16,5 +16,9 @@
       "ends_with": false,
       "data": "ciao"
     }
-  ]
+  ],
+  "rule_protection": {
+    "max_per_hour": 0,
+    "max_per_day": 0
+  }
 }
