@@ -1,17 +1,16 @@
 {
   "rule_name": "MyNewConfig",
   "rule_author": "siembol",
-  "rule_version": 5,
+  "rule_version": 6,
   "rule_description": "Rule to match the demo alert",
   "source_type": "*",
   "matchers": [
     {
       "is_enabled": true,
       "description": "WhateverYouWant",
-      "matcher_type": "IS_IN_SET",
+      "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "key",
-      "case_insensitive": true,
       "data": "ciao"
     }
   ]
