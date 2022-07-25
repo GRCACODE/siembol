@@ -1,0 +1,22 @@
+{
+  "rule_name": "cloned",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "rule_description": "new one",
+  "source_type": "*",
+  "matchers": [
+    {
+      "is_enabled": true,
+      "description": "test",
+      "matcher_type": "IS_IN_SET",
+      "is_negated": false,
+      "field": "name",
+      "case_insensitive": false,
+      "data": "findme"
+    }
+  ],
+  "rule_protection": {
+    "max_per_hour": 0,
+    "max_per_day": 100
+  }
+}
